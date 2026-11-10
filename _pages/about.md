@@ -18,4 +18,4 @@ I am a PhD student in Economics at the University of Virginia. My research inter
 - [Gaussian Mixture Model of Impulse Responses](https://github.com/kd0311/Gaussian_Mixture)
 - [DSGE r-star replication materials](https://github.com/kd0311/DSGE_r-star)
 
-See the [research page]({{ '/research/' | relative_url }}) for project details.
+See the [research page]({{ '/research/' | relative_url }}) for publications.
