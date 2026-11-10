@@ -2,11 +2,12 @@
 ---
 @charset "utf-8";
 
+@use "site-colors";
 @use "variables" with (
   $max-content-width: {{ site.max_width | default: "930px" }},
-  $purple-color: #175fa7,
-  $pink-color: #175fa7,
-  $pink-color-light: #e7f2ff
+  $purple-color: site-colors.$accent-blue,
+  $pink-color: site-colors.$accent-blue,
+  $pink-color-light: site-colors.$accent-blue-light
 );
 
 @use "themes";

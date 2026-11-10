@@ -295,6 +295,7 @@ defaults:
       sitemap: false
 
 sass:
+  sass_dir: assets/_sass
   style: compressed
 
 # -----------------------------------------------------------------------------
