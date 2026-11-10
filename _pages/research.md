@@ -2,10 +2,21 @@
 layout: page
 title: Research
 permalink: /research/
-description: Selected publications.
+description: Work in progress, projects, and selected publications.
 nav: true
 nav_order: 1
 ---
+
+## Work in Progress
+
+1. Learning Bottlenecks in Recursive Self-Improvement
+
+## Project
+
+<p>
+  <strong><a href="https://flops.keatonlee.org/">Opportunity FLOPs</a></strong><br>
+  <small>AI Hackathon - Foundation for American Innovation</small>
+</p>
 
 ## Publications
 
