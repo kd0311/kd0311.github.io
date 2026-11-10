@@ -1,0 +1,49 @@
+name: Build and deploy academic website
+
+on:
+  push:
+    branches: [main, al-folio-website]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      JEKYLL_ENV: production
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.5'
+          bundler-cache: true
+      - run: bundle exec jekyll build
+      - name: Verify site output
+        run: |
+          test -s _site/index.html
+          test -s _site/research/index.html
+          test -s _site/contact/index.html
+          test -s _site/sitemap.xml
+          grep -q 'Katherine Dai' _site/index.html
+          grep -q 'github.com/kd0311/Gaussian_Mixture' _site/research/index.html
+      - uses: actions/upload-pages-artifact@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
