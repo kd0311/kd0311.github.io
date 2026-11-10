@@ -6,8 +6,8 @@ nav: true
 nav_order: 2
 ---
 
-**Let's chat ☕**
+**Let’s chat!**
 
-Whether you want to talk about research, swap ideas, or just say hi — I'm always happy to connect. Feel free to grab a time that works for you:
+If you want to talk about research, swap ideas, or just say hi, I’m happy to connect. Feel free to pick a time:
 
-[Schedule a chat →](https://calendly.com/katherineyd0311)
+[Schedule a Meeting](https://calendly.com/katherineyd0311)
