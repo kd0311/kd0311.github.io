@@ -1,0 +1,23 @@
+---
+---
+@charset "utf-8";
+
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default: "930px" }},
+  $purple-color: #175fa7,
+  $pink-color: #175fa7,
+  $pink-color-light: #e7f2ff
+);
+
+@use "themes";
+@use "layout";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+@use "tabs";
+@use "teachings";
+@use "typograms";
