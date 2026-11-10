@@ -22,7 +22,7 @@ Learning Bottlenecks in Recursive Self-Improvement
 
 <p>
   1. <strong><a href="https://www.imf.org/en/Publications/selected-issues-papers/Issues/2024/07/24/Monetary-Policy-Issues-in-the-UK-United-Kingdom-552412">Monetary Policy Issues in the UK: United Kingdom</a></strong><br>
-  <small>Carella A, Chen R, <strong>Dai K</strong>, Li G, Lama R and Meeks R (2024). <em>IMF Selected Issues Papers</em>, SIP/2024/028. [<a href="https://www.ft.com/content/7ab43865-6afb-4c99-a065-f5c99fff8967">Quoted by Financial Times</a>]</small>
+  <small>Carella A, Chen R, <strong>Dai K</strong>, Li G, Lama R and Meeks R (2024). <em>IMF Selected Issues Papers</em>, SIP/2024/028. [<a style="text-decoration: underline" href="https://www.ft.com/content/7ab43865-6afb-4c99-a065-f5c99fff8967">Quoted by Financial Times</a>]</small>
 </p>
 
 <p>
@@ -37,5 +37,5 @@ Learning Bottlenecks in Recursive Self-Improvement
 
 <p>
   4. <strong><a href="https://www.iif.com/publications/publications-filter/t/China">The Great Demographic Challenge</a></strong><br>
-  <small>Ma G, Feng P, <strong>Dai Y</strong> (2022). <em>IIF China Spotlight Research</em>. <a href="{{ '/assets/pdf/demographic-challenge.pdf' | relative_url }}">[pdf]</a></small>
+  <small>Ma G, Feng P, <strong>Dai Y</strong> (2022). <em>IIF China Spotlight Research</em>. <a style="text-decoration: underline" href="{{ '/assets/pdf/demographic-challenge.pdf' | relative_url }}">[pdf]</a></small>
 </p>
