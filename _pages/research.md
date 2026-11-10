@@ -13,6 +13,8 @@ nav_order: 1
 
 [2] Cots-Capell J, Cui L, Gomes D, MacDonald D, Thevenot C and **Dai K** (2025). [Unlocking the Work Force Potential: Empowering Women to Boost Economic Growth and Greek Prosperity](https://www.imf.org/en/publications/selected-issues-papers/issues/2025/05/09/unlocking-the-work-force-potential-empowering-women-to-boost-economic-growth-and-greek-566894). *IMF Selected Issues Papers*, SIP/2025/056.
 
+[3] **Dai K**, Jarmuzek M, Qu R and Rasekh A (2025). [Enhancing Judicial System Efficiency in Greece: Drivers and Economic Impact](https://www.imf.org/en/publications/selected-issues-papers/issues/2025/05/09/enhancing-judicial-system-efficiency-in-greece-drivers-and-economic-impact-566900). *IMF Selected Issues Papers*, SIP/2025/057.
+
 [4] Ma G, Feng P, **Dai Y** (2022). [The Great Demographic Challenge](https://www.iif.com/publications/publications-filter/t/China). *IIF China Spotlight Research*.
 
 \* Authors alphabetically ordered
