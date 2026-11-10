@@ -6,6 +6,8 @@ nav: true
 nav_order: 2
 ---
 
-Find me on [GitHub](https://github.com/kd0311).
+**Let's chat ☕**
 
-[Schedule a meeting](https://calendly.com/katherineyd0311)
+Whether you want to talk about research, swap ideas, or just say hi — I'm always happy to connect. Feel free to grab a time that works for you:
+
+[Schedule a chat →](https://calendly.com/katherineyd0311)
