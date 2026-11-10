@@ -11,7 +11,7 @@ latest_posts:
   enabled: false
 ---
 
-I am an AI economist. My public research code covers euro area macroeconomics, impulse response models, and monetary policy.
+I am a PhD student in Economics at the University of Virginia. My research interests are the economics of AI, U.S.–China AI policy, and AI infrastructure.
 
 ### Selected research
 
