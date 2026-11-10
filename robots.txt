@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kd0311.github.io/sitemap.xml

@@ -4,8 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f5f2eb" />
-  <meta name="description" content="Katherine Y Dai 的个人网站，展示公开研究代码与项目。" />
-  <title>Katherine Y Dai — 个人网站</title>
+  <meta name="description" content="Katherine Dai（Katherine Y Dai）的个人网站，展示经济研究、模型与公开复现代码，包括 Gaussian Mixture 和 DSGE r-star 项目。" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://kd0311.github.io/" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Katherine Dai — Personal Website" />
+  <meta property="og:description" content="Research projects and open code by Katherine Y Dai." />
+  <meta property="og:url" content="https://kd0311.github.io/" />
+  <title>Katherine Dai (Katherine Y Dai) — Personal Website</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": "https://kd0311.github.io/",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Katherine Dai",
+      "alternateName": ["Katherine Y Dai", "kd0311"],
+      "url": "https://kd0311.github.io/",
+      "sameAs": ["https://github.com/kd0311/"]
+    }
+  }
+  </script>
   <style>
     :root { --paper:#f5f2eb; --ink:#25251f; --muted:#73736a; --line:#d9d6ce; --accent:#ad5b43; --blue:#bac9d8; --yellow:#e9c985; }
     * { box-sizing:border-box; }
@@ -31,6 +51,7 @@
     h1,h2,h3,p { margin:0; }
     h1 { margin:29px 0 26px; font-family:Georgia,"Noto Serif SC","Songti SC",serif; font-size:clamp(70px,7.8vw,132px); font-weight:500; line-height:1.16; letter-spacing:-.085em; }
     h1 em { color:var(--accent); font-style:normal; }
+    h1 .hero-person-name { font-size:.78em; white-space:nowrap; }
     .hero-copy { max-width:530px; color:#575850; font-size:18px; line-height:1.9; }
     .hero-actions { display:flex; align-items:center; gap:29px; margin-top:42px; }
     .primary-link { display:inline-flex; align-items:center; justify-content:center; gap:35px; min-height:52px; padding:0 20px; background:var(--ink); color:white; border-radius:100px; font-size:13px; font-weight:700; transition:transform .2s,background .2s; }
@@ -116,8 +137,8 @@
       <section class="hero" aria-labelledby="hero-title">
         <div>
           <div class="eyebrow">PERSONAL PORTFOLIO · 2026</div>
-          <h1 id="hero-title">你好，我是<br><em>Katherine</em>。</h1>
-          <p class="hero-copy">这里收录我的公开研究代码与项目。更多关于研究方向和个人经历的介绍，稍后会补充。</p>
+          <h1 id="hero-title">你好，我是<br><em class="hero-person-name">Katherine Dai</em>。</h1>
+          <p class="hero-copy">Katherine Y Dai 的个人网站。这里收录经济研究相关的公开代码与项目；更多研究方向和个人经历将陆续补充。</p>
           <div class="hero-actions"><a class="primary-link" href="#work">看看我的作品 <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">了解更多 ↓</a></div>
         </div>
         <div class="hero-art" aria-label="抽象几何插画：太阳、拱形与纸带" role="img">
