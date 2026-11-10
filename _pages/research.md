@@ -37,5 +37,5 @@ Learning Bottlenecks in Recursive Self-Improvement
 
 <p>
   4. <strong><a href="https://www.iif.com/publications/publications-filter/t/China">The Great Demographic Challenge</a></strong><br>
-  <small>Ma G, Feng P, <strong>Dai Y</strong> (2022). <em>IIF China Spotlight Research</em>.</small>
+  <small>Ma G, Feng P, <strong>Dai Y</strong> (2022). <em>IIF China Spotlight Research</em>. <a href="{{ '/assets/pdf/demographic-challenge.pdf' | relative_url }}">[pdf]</a></small>
 </p>
