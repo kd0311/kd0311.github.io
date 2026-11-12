@@ -91,6 +91,11 @@ html {
   margin-bottom: 1.5rem;
 }
 
+.about-cv-link {
+  display: inline-block;
+  margin-top: 0.65rem;
+}
+
 @media (max-width: 575.98px) {
   .about-hero {
     grid-template-columns: 1fr;
