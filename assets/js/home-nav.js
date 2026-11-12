@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const links = Array.from(document.querySelectorAll("[data-home-section]"));
-  const sections = ["research", "contact", "blog"].map((id) => document.getElementById(id));
+  const sections = ["research", "blog"].map((id) => document.getElementById(id));
   const navbar = document.getElementById("navbar");
   const menu = document.getElementById("navbarNav");
   const toggle = document.querySelector('[data-nav-toggle="navbarNav"]');
   let frameRequested = false;
-  let clickedSection = ["research", "contact", "blog"].includes(window.location.hash.slice(1))
+  let clickedSection = ["research", "blog"].includes(window.location.hash.slice(1))
     ? window.location.hash.slice(1)
     : null;
 
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   window.addEventListener("hashchange", () => {
     const target = window.location.hash.slice(1);
-    clickedSection = ["research", "contact", "blog"].includes(target) ? target : null;
+    clickedSection = ["research", "blog"].includes(target) ? target : null;
     updateActive();
   });
 

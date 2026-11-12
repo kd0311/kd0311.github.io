@@ -2,8 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-nav: true
-nav_order: 2
+nav: false
 ---
 
 {% include sections/contact.md %}

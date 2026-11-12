@@ -30,9 +30,9 @@ jobs:
           grep -q 'Katherine Dai' _site/index.html
           grep -q 'SIP/2024/028' _site/research/index.html
           grep -q 'id="research"' _site/index.html
-          grep -q 'id="contact"' _site/index.html
           grep -q 'id="blog"' _site/index.html
           grep -q 'Academic_CV%20(3).pdf' _site/index.html
+          grep -q 'Schedule a Meeting' _site/index.html
           grep -q 'href="/#research"' _site/index.html
       - uses: actions/upload-pages-artifact@v4
         if: github.ref == 'refs/heads/main'

@@ -98,8 +98,6 @@
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink == '/research/' -%}
                     {%- assign url = '/#research' -%}
-                  {%- elsif p.permalink == '/contact/' -%}
-                    {%- assign url = '/#contact' -%}
                   {%- elsif p.permalink == '/blog/' -%}
                     {%- assign url = '/#blog' -%}
                   {%- elsif p.permalink contains '://' -%}

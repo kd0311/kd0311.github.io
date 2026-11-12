@@ -15,22 +15,13 @@ I am a PhD student in Economics at the University of Virginia. My research inter
 
 <p class="about-contact-links"><a href="https://x.com/kdailee3">X</a> · <a href="https://www.linkedin.com/in/katherine-d-b60715330/">LinkedIn</a> · Email: katherineyd0311@gmail.com</p>
 
-### Selected research
-
-- [Gaussian Mixture Model of Impulse Responses](https://github.com/kd0311/Gaussian_Mixture)
-- [DSGE r-star replication materials](https://github.com/kd0311/DSGE_r-star)
+<p class="about-action-links"><a href="{{ '/assets/pdf/Academic_CV%20(3).pdf' | relative_url }}"><u>CV</u></a> · <a href="https://calendly.com/katherineyd0311">Schedule a Meeting</a></p>
 
 <hr class="home-section-divider">
 
 <h2 id="research" class="home-section-heading">Research</h2>
 
 {% include sections/research.md heading_prefix="###" %}
-
-<hr class="home-section-divider">
-
-<h2 id="contact" class="home-section-heading">Contact</h2>
-
-{% include sections/contact.md %}
 
 <hr class="home-section-divider">
 
