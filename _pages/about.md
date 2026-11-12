@@ -13,7 +13,7 @@ latest_posts:
 
 I am a PhD student in Economics at the University of Virginia. My research interests are the economics of transformative AI, U.S.–China AI policy, and AI infrastructure.
 
-<p class="about-contact-links">Email: katherineyd0311@gmail.com</p>
+<p class="about-contact-links"><a href="https://www.linkedin.com/in/katherine-d-b60715330/">LinkedIn</a> · Email: katherineyd0311@gmail.com</p>
 
 ### Selected research
 
