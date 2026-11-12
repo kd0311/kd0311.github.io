@@ -13,6 +13,8 @@ latest_posts:
 
 I am a PhD student in Economics at the University of Virginia. My research interests are the economics of transformative AI, U.S.–China AI policy, and AI infrastructure.
 
+<p class="about-contact-links">Email: katherineyd0311@gmail.com</p>
+
 ### Selected research
 
 - [Gaussian Mixture Model of Impulse Responses](https://github.com/kd0311/Gaussian_Mixture)
