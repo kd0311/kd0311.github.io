@@ -25,14 +25,14 @@ jobs:
           test -s _site/index.html
           test -s _site/research/index.html
           test -s _site/contact/index.html
-          test -s '_site/assets/pdf/Academic_CV (3).pdf'
+          test -s '_site/assets/pdf/Academic_CV (4).pdf'
           test -s _site/assets/img/profile.jpeg
           test -s _site/sitemap.xml
           grep -q 'Katherine Dai' _site/index.html
           grep -q 'SIP/2024/028' _site/research/index.html
           grep -q 'id="research"' _site/index.html
           grep -q 'id="blog"' _site/index.html
-          grep -q 'Academic_CV%20(3).pdf' _site/index.html
+          grep -q 'Academic_CV%20(4).pdf' _site/index.html
           grep -q 'profile.jpeg' _site/index.html
           grep -q 'Schedule a Meeting' _site/index.html
           grep -q 'href="/#research"' _site/index.html
