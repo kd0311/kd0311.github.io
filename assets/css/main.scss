@@ -44,11 +44,60 @@ html {
   margin-bottom: 1.5rem;
 }
 
-.about-contact-links {
-  margin-top: 0.75rem;
-  margin-bottom: 0.25rem;
+.about-hero {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  gap: 2.25rem;
+  align-items: start;
+}
+
+.about-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 0.35rem;
+}
+
+.about-sidebar-contact {
+  margin-top: 0.8rem;
+  text-align: left;
+}
+
+.about-email {
+  display: block;
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+}
+
+.about-social-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.2rem;
+  margin-top: 0.65rem;
+
+  a {
+    color: var(--global-text-color);
+    font-size: 1.5rem;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
 }
 
 .about-action-links {
   margin-bottom: 1.5rem;
+}
+
+@media (max-width: 575.98px) {
+  .about-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .about-sidebar {
+    max-width: 240px;
+  }
 }

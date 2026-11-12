@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="post">
+  <div class="about-hero">
+    <aside class="about-sidebar" aria-label="Contact details">
+      {% if page.profile.image %}
+        <img
+          class="about-photo"
+          src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}"
+          alt="Portrait of {{ site.title }}"
+          width="480"
+          height="600"
+        >
+      {% endif %}
+      <div class="about-sidebar-contact">
+        <span class="about-email">{{ page.profile.email }}</span>
+        <div class="about-social-icons">
+          <a href="{{ page.profile.x_url }}" aria-label="X profile" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </aside>
+
+    <div class="about-main">
+      <header class="post-header">
+        <h1 class="post-title">{{ site.title }}</h1>
+        <p class="desc">{{ page.subtitle }}</p>
+      </header>
+      <article>{{ content }}</article>
+    </div>
+  </div>
+
+  <hr class="home-section-divider">
+  <h2 id="research" class="home-section-heading">Research</h2>
+  <article>
+    {% capture research_content %}{% include sections/research.md heading_prefix="###" %}{% endcapture %}
+    {{ research_content | markdownify }}
+  </article>
+
+  <hr class="home-section-divider">
+  <h2 id="blog" class="home-section-heading">Blog</h2>
+  <article>
+    {% capture blog_content %}{% include sections/blog.md %}{% endcapture %}
+    {{ blog_content | markdownify }}
+  </article>
+
+  {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">{% social_links %}</div>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+  {% endif %}
+</div>
+
+<script src="{{ '/assets/js/home-nav.js' | relative_url }}" defer></script>
