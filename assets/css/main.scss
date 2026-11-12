@@ -77,6 +77,9 @@ html {
 }
 
 .about-social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   margin-top: 0.65rem;
 }
 
@@ -86,11 +89,6 @@ html {
 
 .about-chat-invitation {
   margin-top: 3rem;
-}
-
-.about-cv-link {
-  display: inline-block;
-  margin-top: 0.65rem;
 }
 
 @media (max-width: 575.98px) {

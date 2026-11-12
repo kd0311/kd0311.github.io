@@ -18,8 +18,9 @@ layout: default
         <span class="about-email">{{ page.profile.email }}</span>
         <div class="about-social-links">
           <a href="{{ page.profile.x_url }}"><u>TWITTER</u></a>
+          <span aria-hidden="true">·</span>
+          <a href="{{ page.profile.cv_url | relative_url }}"><u>CV</u></a>
         </div>
-        <a class="about-cv-link" href="{{ page.profile.cv_url | relative_url }}"><u>CV</u></a>
       </div>
     </aside>
 
