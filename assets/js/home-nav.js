@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const menu = document.getElementById("navbarNav");
   const toggle = document.querySelector('[data-nav-toggle="navbarNav"]');
   let frameRequested = false;
+  let clickedSection = ["research", "contact", "blog"].includes(window.location.hash.slice(1))
+    ? window.location.hash.slice(1)
+    : null;
 
   const closeMenu = () => {
     menu?.classList.remove("show");
@@ -25,6 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const updateActive = () => {
+    if (clickedSection) {
+      setActive(clickedSection);
+      frameRequested = false;
+      return;
+    }
     const threshold = (navbar?.getBoundingClientRect().height || 0) + 48;
     let active = "about";
     sections.forEach((section) => {
@@ -42,12 +50,31 @@ document.addEventListener("DOMContentLoaded", () => {
   links.forEach((link) => {
     link.addEventListener("click", (event) => {
       closeMenu();
+      clickedSection = link.dataset.homeSection;
+      setActive(clickedSection);
       if (link.dataset.homeSection === "about") {
         event.preventDefault();
         history.replaceState(null, "", window.location.pathname);
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+        window.scrollTo({ top: 0, behavior });
       }
     });
+  });
+
+  const resumeScrollTracking = () => {
+    clickedSection = null;
+  };
+  window.addEventListener("wheel", resumeScrollTracking, { passive: true });
+  window.addEventListener("touchstart", resumeScrollTracking, { passive: true });
+  window.addEventListener("keydown", (event) => {
+    if (["ArrowDown", "ArrowUp", "PageDown", "PageUp", "Home", "End", " "].includes(event.key)) {
+      resumeScrollTracking();
+    }
+  });
+  window.addEventListener("hashchange", () => {
+    const target = window.location.hash.slice(1);
+    clickedSection = ["research", "contact", "blog"].includes(target) ? target : null;
+    updateActive();
   });
 
   window.addEventListener(
