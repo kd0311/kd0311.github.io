@@ -71,20 +71,8 @@ html {
   overflow-wrap: anywhere;
 }
 
-.about-social-icons {
-  display: flex;
-  justify-content: flex-start;
-  gap: 1.2rem;
+.about-social-links {
   margin-top: 0.65rem;
-
-  a {
-    color: var(--global-text-color);
-    font-size: 1.5rem;
-
-    &:hover {
-      color: var(--global-theme-color);
-    }
-  }
 }
 
 .about-action-links {
