@@ -3,6 +3,7 @@
 Learning Bottlenecks in Recursive Self-Improvement
 
 {{ include.heading_prefix | default: '##' }} Publications
+{: style="margin-top: 2.5rem;"}
 
 <p>
   1. <strong><a href="https://www.imf.org/en/Publications/selected-issues-papers/Issues/2024/07/24/Monetary-Policy-Issues-in-the-UK-United-Kingdom-552412">Monetary Policy Issues in the UK: United Kingdom</a></strong><br>
