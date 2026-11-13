@@ -24,16 +24,20 @@
 @use "typograms";
 
 #navbar {
-  --global-bg-color: #{site-colors.$accent-blue};
+  --global-bg-color: rgba(23, 95, 167, 0.84);
   --global-text-color: #fff;
   --global-theme-color: #fff;
   --global-hover-color: #fff;
   --global-divider-color: rgba(255, 255, 255, 0.2);
   opacity: 1;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 12px rgba(23, 95, 167, 0.08);
 }
 
 #navbar .nav-link {
-  border-radius: 0.25rem;
+  border-radius: 0.4rem;
+  transition: background-color 180ms ease, color 180ms ease;
 }
 
 #navbar .nav-link:hover,
@@ -52,6 +56,10 @@ html {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  #navbar .nav-link {
+    transition: none;
+  }
+
   html {
     scroll-behavior: auto;
   }
