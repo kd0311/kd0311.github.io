@@ -18,6 +18,6 @@ latest_posts:
 
 I am a PhD student in Economics at the University of Virginia. My research interests are the economics of transformative AI, U.S.–China AI policy, and AI infrastructure. I previously worked as a Research Analyst at the International Monetary Fund.
 
-<p class="about-chat-invitation">If you'd like to talk about research, ideas. I am happy to chat.</p>
+<p class="about-chat-invitation">If you'd like to talk about research, ideas, I am happy to chat.</p>
 
 <p class="about-action-links"><a href="https://calendly.com/katherineyd0311">Schedule a Meeting</a></p>
