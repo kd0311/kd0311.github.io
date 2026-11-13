@@ -2,13 +2,6 @@
 
 Learning Bottlenecks in Recursive Self-Improvement
 
-{{ include.heading_prefix | default: '##' }} Project
-
-<p>
-  <strong><a href="https://flops.keatonlee.org/">Opportunity FLOPs</a></strong><br>
-  <small>AI Hackathon - Foundation for American Innovation</small>
-</p>
-
 {{ include.heading_prefix | default: '##' }} Publications
 
 <p>
