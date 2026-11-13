@@ -8,7 +8,7 @@ middle_name:
 last_name: Dai
 contact_note:
 description: Katherine Dai is an AI economist. Explore research and replication code in macroeconomics and monetary policy.
-footer_text: Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and hosted on GitHub Pages.
+footer_text: ""
 keywords: Katherine Dai, economics, monetary policy, macroeconomics
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📊
