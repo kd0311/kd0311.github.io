@@ -9,7 +9,7 @@ profile:
   x_url: https://x.com/kdailee3
   cv_url: /assets/pdf/Academic_CV%20(4).pdf
 selected_papers: false
-social: true
+social: false
 announcements:
   enabled: false
 latest_posts:
