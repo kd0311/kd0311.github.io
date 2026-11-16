@@ -1,6 +1,9 @@
 {{ include.heading_prefix | default: '##' }} Work in Progress
 
-Learning Bottlenecks in Recursive Self-Improvement
+<p>
+  <strong>Learning Bottlenecks in Recursive Self-Improvement</strong><br>
+  <small>Dai, K. <a style="text-decoration: underline" href="{{ '/assets/pdf/research-proposal.pdf' | relative_url }}">[research proposal]</a></small>
+</p>
 
 {{ include.heading_prefix | default: '##' }} Publications
 {: style="margin-top: 2.5rem;"}
