@@ -2,7 +2,7 @@
 
 <p>
   <strong>Learning Bottlenecks in Recursive Self-Improvement</strong><br>
-  <small>Dai, K. Research Proposal <a style="text-decoration: underline" href="{{ '/assets/pdf/research-proposal.pdf' | relative_url }}">[pdf]</a></small>
+  <small>Dai, K. <em>Research Proposal</em> <a style="text-decoration: underline" href="{{ '/assets/pdf/research-proposal.pdf' | relative_url }}">[pdf]</a></small>
 </p>
 
 {{ include.heading_prefix | default: '##' }} Publications
