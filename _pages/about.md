@@ -7,7 +7,7 @@ profile:
   image: profile.jpeg
   email: katherineyd0311@gmail.com
   x_url: https://x.com/kdailee3
-  cv_url: /assets/pdf/Academic_CV%20(4).pdf
+  cv_url: /assets/pdf/Academic_CV.pdf
 selected_papers: false
 social: false
 announcements:
