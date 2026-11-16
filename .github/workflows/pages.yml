@@ -31,7 +31,6 @@ jobs:
           grep -q 'Katherine Dai' _site/index.html
           grep -q 'SIP/2024/028' _site/research/index.html
           grep -q 'id="research"' _site/index.html
-          grep -q 'id="blog"' _site/index.html
           grep -q 'Academic_CV.pdf' _site/index.html
           grep -q 'profile.jpeg' _site/index.html
           grep -q 'Schedule a Meeting' _site/index.html

@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const links = Array.from(document.querySelectorAll("[data-home-section]"));
-  const sections = ["research", "blog"].map((id) => document.getElementById(id));
+  const sections = ["research"].map((id) => document.getElementById(id));
   const navbar = document.getElementById("navbar");
   const menu = document.getElementById("navbarNav");
   const toggle = document.querySelector('[data-nav-toggle="navbarNav"]');
   let frameRequested = false;
-  let clickedSection = ["research", "blog"].includes(window.location.hash.slice(1))
+  let clickedSection = ["research"].includes(window.location.hash.slice(1))
     ? window.location.hash.slice(1)
     : null;
 
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
     if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
-      active = "blog";
+      active = "research";
     }
     setActive(active);
     frameRequested = false;
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   window.addEventListener("hashchange", () => {
     const target = window.location.hash.slice(1);
-    clickedSection = ["research", "blog"].includes(target) ? target : null;
+    clickedSection = ["research"].includes(target) ? target : null;
     updateActive();
   });
 

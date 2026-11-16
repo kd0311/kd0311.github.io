@@ -40,13 +40,6 @@ layout: default
     {{ research_content | markdownify }}
   </article>
 
-  <hr class="home-section-divider">
-  <h2 id="blog" class="home-section-heading">Blog</h2>
-  <article>
-    {% capture blog_content %}{% include sections/blog.md %}{% endcapture %}
-    {{ blog_content | markdownify }}
-  </article>
-
   {% if page.social %}
     <div class="social">
       <div class="contact-icons">{% social_links %}</div>
