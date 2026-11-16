@@ -1,7 +1,7 @@
 {{ include.heading_prefix | default: '##' }} Work in Progress
 
 <p>
-  <strong>Learning Bottlenecks in Recursive Self-Improvement</strong><br>
+  <strong>Learning Bottleneck in Recursive Self-Improvement</strong><br>
   <small>Dai, K. <em>Research Proposal</em>&nbsp;&nbsp;<a style="text-decoration: underline" href="{{ '/assets/pdf/research-proposal.pdf' | relative_url }}">[pdf]</a></small>
 </p>
 
